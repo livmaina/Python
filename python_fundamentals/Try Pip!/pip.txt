@@ -1,0 +1,53 @@
+- pip install Django==1.11.9
+    This command is used to install the latest version of Django, which is 1.11.9. This installed Django
+    in my 'myEnvironment' in my virtualenv folder.
+
+- pip list
+    pip list is the command used to list the installed packages.
+    {Django     1.11.9
+     pip        18.0
+     pytz       2018.5
+     setuptools 40.4.3
+     wheel      0.32.0} 
+
+-deactivate
+    this command deactivated the my virtualenv
+
+-pip3 list
+    pip3 always operates on Python 3 environment, while the pip operates on either Python 2 or 3. This list 
+    will not show the installed package that was downloaded, and will display the version virtualenv used.
+    {pip        18.0
+     pytz       2018.5
+     setuptools 40.4.1
+     virtualenv 16.0.0
+     wheel      0.31.1}
+
+-source myEnvironments/py3Env/bin/activate
+    this command reactivated my virtualenv
+
+-pip install Django==1.11.9 
+    installs django, already installed--> information returned "Requirement already satisfied: Django==
+    1.11.9 in ./py3Env/lib/python3.7/site-packages (1.11.9)
+
+-pip freeze
+    Output format that gives the standard requirment format.  Output content pip list include editables 
+    which freeze does not
+    {Django==1.11.9
+     pytz==2018.5}
+
+-pip freeze > requirements.txt
+    I found the list of files and folders in my Desktop after running this, then list
+
+-pip uninstall Django
+    command used to uninstall django
+
+-pip show Django
+    is used to give information on installation, nothing appeared since Django was uninstalled
+
+-pip search Flask 
+    pip search returns results that only partially match the string
+
+
+
+
+
